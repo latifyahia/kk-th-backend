@@ -27,7 +27,7 @@ Returns the user's next delivery details:
 }
 ```
 
-### GET /api/v1/welcome-fresh/:userId
+### GET /api/v1/comms/welcome-fresh/:userId
 
 Returns the welcome message for a user:
 
