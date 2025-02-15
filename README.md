@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a backend built with NestJS. This is my first time using NestJS. The backend is accompanied by extensive unit tests to cover all functionality.
+This is a backend built with NestJS. This is my first time using NestJS. This backend accompanies the [kk-th-frontend](https://github.com/latifyahia/kk-th-frontend)
 
 I spent a few hours over two days learning NestJS and implementing this backend from scratch. Although I'm new to NestJS, I tried to follow best practices from online research and documentation.
 
@@ -54,6 +54,9 @@ To run this locally, you will need:
 3. Run `npm run start`.
 
 After following these steps, you should be able to hit the endpoints mentioned above (note this API service runs on `localhost:3000`).
+
+### Frontend Integration
+To utilize the frontend with this backend, follow the instructions in the [kk-th-frontend](https://github.com/latifyahia/kk-th-frontend) repo. Ensure the backend is running locally before starting the frontend.
 
 ### Running Tests
 
