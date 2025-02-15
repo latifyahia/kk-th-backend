@@ -9,6 +9,7 @@ describe('AppController', () => {
   let appController: AppController;
   let commsModule: CommsModule;
   let userModule: UserModule;
+  let pricingModule: PricingModule;
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
@@ -19,6 +20,8 @@ describe('AppController', () => {
 
     appController = app.get<AppController>(AppController);
     commsModule = app.get<CommsModule>(CommsModule);
+    userModule = app.get<UserModule>(UserModule);
+    pricingModule = app.get<PricingModule>(PricingModule);
   });
 
   it('AppController should be defined', () => {
@@ -27,5 +30,13 @@ describe('AppController', () => {
 
   it('CommsModule should be defined', () => {
     expect(commsModule).toBeDefined();
+  });
+
+  it('UserModule should be defined', () => {
+    expect(userModule).toBeDefined();
+  });
+
+  it('PricingModule should be defined', () => {
+    expect(pricingModule).toBeDefined();
   });
 });
